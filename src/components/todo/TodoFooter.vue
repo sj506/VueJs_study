@@ -8,7 +8,7 @@
 export default {
   methods: {
     clearTodo() {
-      this.$emit('childClearAllBtn');
+      this.$emit('clearTodo');
     },
   },
 };
